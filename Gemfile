@@ -9,6 +9,9 @@ gem 'rails', '3.2.13'
 # gem 'sqlite3'
 gem 'pg', '0.12.2'
 
+group :development do
+  gem 'wirble'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
