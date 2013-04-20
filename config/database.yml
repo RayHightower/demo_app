@@ -1,20 +1,17 @@
 development:
   adapter: postgresql
-  database: radiant_dev
-  username: <username>
-  password: <password>
-  host: <hostname or ip address. eg.: localhost>
+  database: demo_app_dev
+  username: rth
+  password: 
 
 test:
   adapter: postgresql
-  database: radiant_test
-  username: <username>
-  password: <password>
-  host: <hostname or ip address. eg.: localhost>
+  database: demo_app_test
+  username: rth
+  password: 
 
 production:
   adapter: postgresql
-  database: radiant_live
-  username: <username>
-  password: <password>
-  host: <hostname or ip address. eg.: localhost>
+  database: demo_app_live
+  username: rth
+  password: 
