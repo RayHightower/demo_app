@@ -11,6 +11,7 @@ gem 'pg', '0.12.2'
 
 group :development do
   gem 'wirble'
+  gem 'rspec-rails', '2.9.0'
 end
 
 # Gems used only for assets and not required
